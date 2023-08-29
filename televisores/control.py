@@ -33,7 +33,7 @@ class Control:
         self.tv = televisor
         self.tv.setControl(self)
     
-    def getTV(self):
+    def getTv(self):
         return self.tv
     
     def setTv(self, obj):
