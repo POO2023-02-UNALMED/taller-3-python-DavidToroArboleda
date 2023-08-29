@@ -43,8 +43,8 @@ class TV:
     def getControl(self):
         return self._control
     
-    def setNumTV(self,numTV):
-        self.numTV = numTV
+    def setNumTV(self,num):
+        self.numTV = num
 
 
     def turnOn(self): 
